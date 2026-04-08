@@ -1,0 +1,19 @@
+{
+  "title": "openclaw深度解析 | Your own personal AI assistant",
+  "body": "# openclaw 技术深度解析\n**一句话介绍：** Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 \n---\n## 核心优势\n1. 开源免费：MIT 协议，可商用，无使用限制\n2. 隐私安全：本地部署，数据不离开你的设备\n3. 跨平台统一：Windows/macOS/Linux 全覆盖\n4. 插件生态：丰富的插件系统，功能可扩展\n5. 多模型支持：OpenAI/Anthropic/本地模型任选\n\n## 快速上手\n**1. 安装 OpenClaw**\n```\nnpm install -g openclaw\n# 或\npip install openclaw\n# 或\nbrew install openclaw\n```\n**2. 配置 API Key**\n```\nexport OPENAI_API_KEY=sk-xxxxx\n# 或配置其他模型\n```\n**3. 启动助手**\n```\nopenclaw\n# 或\nopenclaw --model claude\n```\n**4. 开始对话**\n```\n> 你好，帮我写一个 Python 快速排序\n```\n**5. 安装插件（可选）**\n```\nopenclaw plugin install web-search\nopenclaw plugin install github\n```\n\n## 实用技巧\n- 本地模型省钱：用 Ollama 部署 Llama2，免费无限用\n- 快捷命令：用 /search 快速搜索，/code 执行代码\n- 上下文注入：@文件 可以让 AI 读取本地文件\n- 插件组合：搜索 + 总结 + 翻译 组合使用效率翻倍\n- 自定义提示词：修改 ~/.openclaw/system.md 定制 AI 性格\n\n",
+  "topics": [
+    "#程序员",
+    "#AI",
+    "#机器学习",
+    "#Your",
+    "#LLM",
+    "#开源项目",
+    "#GitHub",
+    "#技术解析",
+    "#own",
+    "#AI工具",
+    "#openclaw",
+    "#人工智能"
+  ],
+  "cover_suggestion": "【openclaw】\nYour own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 \n\n深入技术解析"
+}

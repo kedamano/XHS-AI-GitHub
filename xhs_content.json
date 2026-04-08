@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code深度解析 | 基于 51.2 万行源码的深度技术解析",
+  "subtitle": "🔥 5大核心优势 | 技术架构全揭秘",
+  "cover": "【Claude Code】\n基于 51.2 万行源码的深度技术解析\n\n耗时深入分析，带你看透这个项目",
+  "body": "# Claude Code 技术深度解析\n**一句话介绍：** 基于 51.2 万行源码的深度技术解析\n---\n## 🎯 核心优势\n1. 流式推理：边生成边执行，比传统 AI 快 10 倍\n2. 多智能体并行：分叉-并行-合并模式，真并行\n3. 40+ 工具调用：Grep/Glob/Read/LSP/网络请求\n4. 三层记忆系统：MEMORY.md + 主题文件 + 会话记录\n5. 五层安全机制：最小权限原则，默认只读\n\n---\n## 📖 快速上手\n**1. 安装 Claude Code**\n```\nnpm install -g @anthropic-ai/claude-code\n```\n**2. 配置 API Key**\n```\nexport ANTHROPIC_API_KEY=your_key_here\n```\n**3. 启动对话**\n```\nclaude\n```\n**4. 创建 MEMORY.md**\n```\n让 AI 记住项目规范和偏好\n```\n**5. 开始编程**\n```\n用自然语言描述任务，AI 自动执行\n```\n\n---\n## 💡 实用技巧\n- 创建 MEMORY.md 让 AI 理解项目规范\n- 使用 /clear 重置对话但保留记忆\n- 复杂任务用 /plan 先让 AI 制定计划\n- 敏感操作前查看 AI 的执行计划\n- 用中文描述任务，Claude 中文理解很强\n\n",
+  "topics": [
+    "#AI",
+    "#开源项目",
+    "#GitHub",
+    "#技术解析",
+    "#程序员",
+    "#ClaudeCode"
+  ],
+  "page_count": 6
+}

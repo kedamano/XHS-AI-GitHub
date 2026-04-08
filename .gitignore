@@ -1,0 +1,20 @@
+# 排除 .workbuddy 目录（工作目录配置）
+.workbuddy/
+
+# 排除 ~ 临时目录
+~/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# 排除测试相关文件（只排除前缀为 test_ 的）
+test_*.py
+test_*.md
+test_*

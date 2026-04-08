@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-04-08",
+  "count": 10,
+  "repos": [
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "author": "freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stars": 442205,
+      "forks": 44182,
+      "language": "TypeScript",
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3"
+      ]
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "author": "EbookFoundation",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 385190,
+      "forks": 66092,
+      "language": "Python",
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ]
+    },
+    {
+      "name": "kamranahmedse/developer-roadmap",
+      "author": "kamranahmedse",
+      "url": "https://github.com/kamranahmedse/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stars": 352513,
+      "forks": 43887,
+      "language": "TypeScript",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap"
+      ]
+    },
+    {
+      "name": "openclaw/openclaw",
+      "author": "openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stars": 351938,
+      "forks": 70878,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw"
+      ]
+    },
+    {
+      "name": "vinta/awesome-python",
+      "author": "vinta",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "stars": 291351,
+      "forks": 27608,
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries"
+      ]
+    },
+    {
+      "name": "facebook/react",
+      "author": "facebook",
+      "url": "https://github.com/facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "stars": 244499,
+      "forks": 50914,
+      "language": "JavaScript",
+      "topics": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library",
+        "react"
+      ]
+    },
+    {
+      "name": "torvalds/linux",
+      "author": "torvalds",
+      "url": "https://github.com/torvalds/linux",
+      "description": "Linux kernel source tree",
+      "stars": 227527,
+      "forks": 61455,
+      "language": "C",
+      "topics": []
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "author": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "stars": 194578,
+      "forks": 75255,
+      "language": "C++",
+      "topics": [
+        "deep-learning",
+        "deep-neural-networks",
+        "distributed",
+        "machine-learning",
+        "ml"
+      ]
+    },
+    {
+      "name": "ohmyzsh/ohmyzsh",
+      "author": "ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "stars": 186041,
+      "forks": 26334,
+      "language": "Shell",
+      "topics": [
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin",
+        "oh-my-zsh-theme"
+      ]
+    },
+    {
+      "name": "microsoft/vscode",
+      "author": "microsoft",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 183575,
+      "forks": 39034,
+      "language": "TypeScript",
+      "topics": [
+        "editor",
+        "electron",
+        "microsoft",
+        "typescript",
+        "visual-studio-code"
+      ]
+    }
+  ]
+}
