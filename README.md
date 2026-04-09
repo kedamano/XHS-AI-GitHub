@@ -52,8 +52,12 @@ XHS-AI-GitHub/
 ├── LICENSE                # MIT 许可证
 │
 ├── skills/
-│   └── xhs-ai-blogger/    # WorkBuddy Skill
-│       └── SKILL.md       # 小红书 AI 博主技能
+│   ├── xhs-ai-blogger/    # WorkBuddy Skill
+│   │   └── SKILL.md        # 小红书 AI 博主技能（通用版）
+│   └── oasys-redbook/     # WorkBuddy Skill
+│       ├── SKILL.md        # OASYS OA系统小红书配图生成器（科技简约风）
+│       ├── scripts/        # 生成脚本
+│       └── references/     # 文档资料
 │
 └── bot/                   # 自动化 Bot
     ├── scripts/

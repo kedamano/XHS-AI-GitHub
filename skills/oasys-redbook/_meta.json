@@ -1,0 +1,11 @@
+{
+  "name": "oasys-redbook",
+  "version": "1.0.0",
+  "description": "OASYS OA办公自动化系统 - 科技简约风小红书配图生成器",
+  "author": "kedamano",
+  "tags": ["oasys", "xiaohongshu", "image-generator", "oa", "办公自动化"],
+  "python_version": "3.8+",
+  "dependencies": {
+    "Pillow": ">=9.0.0"
+  }
+}
