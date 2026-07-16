@@ -1,6 +1,6 @@
 ---
 name: xhs-ai-blogger
-description: 将 GitHub AI 项目转化为小红书爆款种草内容 + 科技风配图。当用户要求生成小红书帖子、推荐 GitHub AI 项目、写 AI 种草内容时使用此技能。一键生成：内容.md + 配图.jpg。
+description: 将 GitHub AI 项目转化为小红书爆款种草内容 + 单文件 HTML 翻页演示。当用户要求生成小红书帖子、推荐 GitHub AI 项目、写 AI 种草内容时使用此技能。一键生成：单文件 HTML（横向翻页演示）。
 ---
 
 # 小红书 AI 博主技能（融合版）
@@ -9,11 +9,22 @@ description: 将 GitHub AI 项目转化为小红书爆款种草内容 + 科技�
 
 这是一个**一体化**小红书内容创作 Pipeline，整合了：
 - **xhs-ai-blogger**: 爆款内容生成
-- **oasys-redbook**: 科技简约风配图生成（6种主题色）
+- **oasys-redbook**: 科技简约风视觉系统（6种主题色）
 
 **一次运行，同时输出：**
 - 📄 `项目名_内容.md` - 完整小红书内容文档
-- 🖼️ `项目名_page_01~06.jpg` - 6张科技风配图
+- 🖼️ `项目名_page_01~06.jpg` - 6张科技风配图（旧版，已废弃）
+- 🌐 `index.html` - **单文件 HTML 翻页演示**（推荐，拖进浏览器即可查看）
+
+### 新版：单文件 HTML 翻页演示
+
+参考 [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) 设计，生成一个**独立的 `index.html`**：
+- 横向翻页动画（CSS transition + translateX）
+- 6 种科技主题色循环使用
+- 键盘 ← → / 滚轮 / 触屏 / 底部圆点导航
+- ESC 索引视图（缩略图网格）
+- B 键低功耗模式（禁用动画）
+- 响应式布局，适配不同屏幕
 
 ## 触发条件
 
@@ -26,10 +37,10 @@ description: 将 GitHub AI 项目转化为小红书爆款种草内容 + 科技�
 
 ## 快速使用
 
-### 命令行方式
+### 新版：单文件 HTML 翻页演示（推荐）
 
 ```bash
-python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/xhs_blogger_pipeline.py \
+python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/html_deck.py \
     --project "项目名称" \
     --repo "https://github.com/xxx/repo" \
     --description "项目一句话描述" \
@@ -41,12 +52,24 @@ python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/xhs_blogger_pipel
 ### 示例
 
 ```bash
-python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/xhs_blogger_pipeline.py ^
+python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/html_deck.py ^
     --project "ColaOS" ^
     --repo "https://github.com/xxx/ColaOS" ^
     --description "人类第一个有灵魂的操作系统" ^
     --features "直接操控电脑|原生记忆|主动服务|多模态生成|灵魂共鸣" ^
     --output "./ColaOS_output"
+```
+
+### 旧版：生成图片 + Markdown（已废弃）
+
+```bash
+python C:/Users/lcl13/.workbuddy/skills/xhs-ai-blogger/scripts/xhs_blogger_pipeline.py \
+    --project "项目名称" \
+    --repo "https://github.com/xxx/repo" \
+    --description "项目一句话描述" \
+    --features "功能1|功能2|功能3|功能4|功能5" \
+    --tags "#AI #开源 #效率工具" \
+    --output "./output"
 ```
 
 ## 配图主题色
